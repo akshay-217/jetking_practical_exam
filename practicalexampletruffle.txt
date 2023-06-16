@@ -1,0 +1,17 @@
+ 1) Explain briefly the steps involved in initiating a project inTruffleand demonstrate the same. 
+ans
+install truffle in pc check the version of truffle and create a folder and open vs code terminal 
+and type mkdir filename to create file and type cd filename to enter the file and type truffle init 
+after that your get the files in your folder example contract,migration,test and truffle-config.js
+ 
+2.) How to Write and Compile a Solidity Smart Contract fileusingTruffle?
+ans write truffle init and in contarct file write your contract and open terminal type truffle compile 
+and you will get the message of succefully compile or if an error you get the error message 
+for example unbox metacoin by type comand in terminal truffle unbox metacoin and you will get the metacoin contract
+type command truffle compile to compile the contract and ypu will get the message
+
+3) Demonstrate the process of deploying smart contract onGanache using Truffle suite.   
+ans to deploy your smartcontarct in ganache install ganache from google and craete a new folder and write your project name
+and now open vs code and open truffle-conig.js and change the module.exports comand 
+change the port number write neccessary information and open terminal and truffle compile and after compiling successfully type 
+truffle migrate and you will get all information in terminal blocknumber and gas used and etc
